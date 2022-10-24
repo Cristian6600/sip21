@@ -2,6 +2,140 @@
 {% load static %} 
 {% block panel-content %}
 
-<p>Hola desde telefonia</p>
+<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+    <div class="orbit-wrapper">
+      <div class="orbit-controls">
+       
+      </div>
+      <ul class="orbit-container">
+        <li class="is-active orbit-slide">
+          <figure class="orbit-figure">
+            <img class="orbit-image" src="{% static 'img/tel-ip.jpeg' %}" alt="Space">
+            
+          </figure>
+        </li>
+        
+        
+        
+      </ul>
+    </div>
+   
+  </div>
 
+  <div class="ex1">
+    <br>
+
+<p>La tecnología VoIP (Voz Sobre Protocolo de Internet) es la nueva forma de hacer y recibir
+     llamadas desde cualquier lugar del mundo usando una conexión a Internet. <br>
+
+    Una IP-PBX es un equipo servidor, o central telefónica  IP  que brinda todas las 
+    funciones de  una planta telefónica tradicional,  pero adicionalmente tienen una serie
+     de características que permiten reducir  costos y además integra su red LAN WAN Internet 
+     y la red telefónica publica con todas las aplicaciones y características de un sistema IP-PBX 
+     corporativo</p>
+
+<h3>Funcionalidades</h3>
+
+    <p>
+        Operadora Virtual: Sistema automático de atención de llamadas que le permite al usuario 
+        interactuar directamente con el sistema de PBX a través del teclado telefónico. En formatos 
+        mp3, wav o gsm. <br> <br>
+
+        <strong>ransferencia Atendida:</strong> T Permite que antes de completar la transferencia se consulte con la 
+        extensión destino si acepta la llamada. <br>
+
+        <strong> Transferencia Desatendida: </strong> Capacidad para transferir una llamada hacia otra extensión de 
+        forma directa sin anuncio previo. <br>
+
+
+        <strong> Llamada en Espera: </strong> Capacidad de suspender la llamada activa, dejándola en espera, para atender
+         una llamada entrante adicional. <br>
+
+        <strong> Espera:</strong> Capacidad de pausar la llamada activa con el propósito de realizar diferentes acciones
+         (transferencia, parqueo, conferencia, etc.). A la llamada pausada se le proporciona música en 
+         espera mientras se ejecuta la acción. <br>
+
+         <strong> Música en Espera: </strong> Reproduce música en la línea mientras la llamada 
+         se encuentra en espera. <br>
+
+         <strong>Enrutamiento </strong>  de Llamadas Entrantes: Permite dirigir directamente llamadas
+          entrantes a una extensión en particular, basándose en la línea o DID que recibe la llamada. <br>
+         
+         <strong> Correo de Voz: </strong> Sistema interactivo de mensajería que permite el almacenamiento
+          y administración avanzada de mensajes de voz. Los mensajes son almacenados en formato digital 
+          (WAV) y pueden ser transferidos al e-mail, notificados al usuario o consultados remotamente 
+          vía web o a través de una opción de la operadora virtual. <br>
+         
+         <strong> Conferencia entre Tres:</strong> Conecta a tres personas en una misma llamada. <br>
+         
+         <strong> Monitoreo de Llamadas:</strong> Permite la escucha o intervención de una llamada en
+          otra extensión. <br>
+         
+         <strong> Grabación de Llamadas:</strong> Permite grabar selectivamente llamadas o conferencias
+          telefónicas, almacenándola en formato digital para ser escuchadas posteriormente. <br>
+         
+         <strong> Cola de Llamadas:</strong> Funcionalidad de call center que permite atender 
+         múltiples llamadas en una cola manteniéndolas en espera para ser transferidas automáticamente 
+         al siguiente agente disponible. <br>
+         
+         <strong> CDR:</strong> Capacidad de almacenar en base de datos el registro histórico de las 
+         llamadas incluyendo número de origen, número de destino,
+          duración de la llamada, fecha y hora, etc. <br>
+         
+         <strong> Identificador de Llamadas:</strong> Permite observar el número telefónico y
+          nombre de la persona que está llamando. <br>
+         
+         <strong> Captura Remota de Llamadas:</strong> Permite recoger remotamente una llamada que
+          está timbrando en otra extensión. <br>
+
+         <strong> Códigos PIN: </strong> Permite asignar claves de autorización según destino, como
+          llamadas de larga distancia nacional, internacional, celulares, etc. <br>
+
+          <strong>  Re direccionamiento de Llamadas: </strong> Transfiere automáticamente las llamadas 
+          entrantes hacia otra extensión o número telefónico pre configurado. <br>
+
+          <strong>  Integración con troncales:</strong> Capacidad para integrar diferentes tecnologías, de cualquier operador
+           ETB/Telefónica/Telmex. (Esta cotización no incluye tarjetas para hacer la integración
+            con cualquier operador, si se desea hacer se debe incluir en la cotización) <br>
+
+         <strong> Configuración de Extensiones: </strong> Permite escalabilidad en configuración de extensiones. <br>
+
+        <strong> Grabación de llamadas: </strong> Configurable de acuerdo a extensiones con las opciones (never, random, always)
+
+        <h4> Ventajas de la telefonía IP </h4>
+Simplificación y Optimización de la Infraestructura IT. La Telefonía IP utiliza el mismo tipo de equipos que la informática (servidores, cableado, incluso se pueden utilizar los PCs como terminales).
+a.    No es necesario invertir en construir doble cableado ya que se puede compartir la misma red para ordenadores y terminales telefónicos.
+b.    menores costos de explotación y gestión. El mantenimiento se puede realizar en remoto y se pueden reubicar extensiones simplemente cambiando los terminales de punto de red.
+Unificación de la Telefonía Corporativa en entornos multi-sede.
+a.    Llamadas gratuitas entre sedes conectadas en VPN.
+b.    Centralización de líneas de acceso a la red pública (RTP) en uno o varios puntos, aportando ahorros de líneas en las sedes pequeñas.
+
+
+ <h4> Arquitectura o Elementos de la Telefonía IP </h4>
+Terminales IP: son los sustitutos de los actuales teléfonos tradicionales. Se pueden implementar tanto en software –en el PC, o en las tabletas- como en hardware.
+IP-PBX: Es el elemento central de la VoIP. Consiste en un software (propietario o no) alojado sobre un servidor clásico que proporcionará el control y direccionamiento de las llamadas.  Son el sustituto de las actuales centralitas (PBX).
+Gateways IP: Se trata del enlace con la red telefónica tradicional, actuando de forma transparente para el usuario.
+Troncal SIP: El Session Initiation Protocol (SIP) se ha convertido en el estándar entre los protocolos de señalización para la VoIP, superando incluso al H323. Proporciona servicios de registro, de localización, de direccionamiento.
+Las Redes de Datos: Tanto internas de la oficina (LAN) como externas (WAN). Es fundamental que dispongan de anchos de banda estables, con garantía, latencias constantes y no demasiado elevadas, y, en caso de compartirse con otro tipo de datos, como ocurre habitualmente, se requiere que se pueda priorizar los paquetes de voz mediante técnicas “Quality of Service” (QoS).
+
+    </p>
+    <h4>
+        TELEFONIA IP IVR TRANSACCIONAL
+    </h4>
+    <p>
+        La respuesta de voz interactiva o IVR (del inglés Interactive Voice Response) consiste en un sistema
+         telefónico que es capaz de recibir una llamada e interactuar con una persona a través de grabaciones 
+         de voz y el reconocimiento de respuestas simples, como «sí», «no» u otras. Es un sistema automatizado 
+         de respuesta interactiva, orientado a entregar o capturar información a través del teléfono,
+          permitiendo el acceso a servicios de información u otras operaciones. <br>
+Los IVR se pueden utilizar para compras con dispositivos móviles, pagos y servicios bancarios,
+ pedidos minoristas, servicios públicos, información sobre viajes y condiciones meteorológicas.  <br>
+
+<h4> Sector bancario </h4>
+Las instituciones bancarias dependen de los sistemas de IVR para mantener las relaciones con los clientes y ampliar el horario comercial para ofrecer servicios las 24 horas de los 7 días de la semana. El servicio de Banca telefónica permite a los clientes consultar saldos e historiales de transacciones. 
+<h4> Sector médico </h4>
+Las empresas farmacéuticas y las organizaciones de investigación por contrato utilizan los sistemas de IVR para realizar ensayos clínicos y administrar el gran volumen de datos que se genera. La persona que llama responde a las preguntas en el idioma de su preferencia y las respuestas se ingresan en una base de datos y, posiblemente, se registran al mismo tiempo para confirmar la autenticidad. Entre las aplicaciones se incluyen la asignación aleatoria de pacientes y la gestión del suministro de medicamentos. También se emplean para registrar los diarios y cuestionarios del paciente.
+Los sistemas de IVR permiten a quienes llaman obtener datos de manera relativamente anónima. En hospitales y clínicas, los sistemas de IVR se han utilizado para que quienes llaman puedan obtener acceso anónimo a los resultados de las pruebas. Este tipo de información podría ser fácilmente gestionada por una persona, pero se emplea el sistema de IVR para preservar la privacidad y evitar la posible incomodidad que puede suponer la información sensible o los resultados de las pruebas. Los usuarios reciben una clave de ingreso para poder acceder a sus resultados.
+    </p> <br>
+</div>
 {% endblock panel-content %}
