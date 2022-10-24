@@ -21,3 +21,7 @@ class BigdataTemplateView(TemplateView):
 
 class TelefoniaTemplateView(TemplateView):
     template_name = "home/telefonia.html"
+
+class InfraestructuraTemplateView(TemplateView):
+    template_name = "home/infraestructura.html"
+

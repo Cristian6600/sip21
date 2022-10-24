@@ -35,5 +35,11 @@ urlpatterns = [
         views.TelefoniaTemplateView.as_view(),
         name='telefinia-ip',
     ),
+    
+    path(
+        'infraestructura-telecomunicaciones', 
+        views.InfraestructuraTemplateView.as_view(),
+        name='infraestructura-telecomunicaciones',
+    ),
 
 ]
