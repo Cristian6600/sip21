@@ -1,0 +1,54 @@
+{% extends "home/base_home.html" %} 
+{% load static %} 
+{% block panel-content %}
+
+<div class="callout secondary">
+    <h1 class="text-center">Big data</h1>
+</div>
+<div class="ex1">
+
+    <h2 class="text-center">Visión general</h2>
+
+    <p>La analítica de big data es el uso de técnicas avanzadas de analítica para conjuntos muy grandes y distintos de big data que incluyen datos estructurados, semiestructurados y no estructurados, de diferentes fuentes y en diferentes tamaños, desde terabytes hasta zettabytes.
+
+        ¿Qué es exactamente el big data? Se puede definir como conjuntos de datos cuyo tamaño o tipo está más allá de la capacidad de las tradicionales bases de datos relacionales para capturar, gestionar y procesar los datos con baja latencia. Las características de big data incluyen alto volumen, alta velocidad y gran variedad. Las fuentes de datos se están volviendo más complejas que las de los datos tradicionales porque están impulsadas por inteligencia artificial (IA), dispositivos móviles, redes sociales e Internet de las cosas (IoT). Por ejemplo, los diferentes tipos de datos se originan en sensores, dispositivos, video/audio, redes, archivos de registro, aplicaciones transaccionales, web y redes sociales, muchos de ellos generados en tiempo real y a gran escala.
+        
+        Con la analítica de big data, en última instancia, puede impulsar una mejor y más rápida toma de decisiones, modelado y predicción de resultados futuros y una inteligencia empresarial mejorada. A medida que crea su solución de big data, considere software de código abierto como Apache Hadoop, Apache Spark y todo el ecosistema de Hadoop como herramientas rentables y flexibles de almacenamiento y procesamiento de datos diseñadas para manejar el volumen de datos que se genera en la actualidad.</p>
+
+</div>
+
+<h2 class="text-center">Beneficios de la analítica de big data</h2>
+
+<div class="grid-container">
+    <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+      <div class="cell">
+        <div class="card">
+          <img src="{% static 'img/big.jpeg' %}">
+          <div class="card-section">
+          <h4>Toma de decisiones más rápida y mejor.</h4>
+            <p>Las empresas pueden acceder a un gran volumen de datos y analizar una gran variedad de fuentes de datos para obtener nuevos insights y tomar medidas. Comience de a poco y escale para manejar datos de registros históricos y en tiempo real.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="card">
+          <img src="{% static 'img/big.jpeg' %}">
+          <div class="card-section">
+            <h4>Reducción de costos y eficiencia operativa.</h4>
+            <p>Las herramientas flexibles de procesamiento y almacenamiento de datos pueden ayudar a las organizaciones a ahorrar costos en el almacenamiento y análisis de grandes cantidades de datos. Descubra patrones e insights que le ayuden a identificar y hacer negocios de manera más eficiente.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cell">
+        <div class="card">
+          <img src="{% static 'img/big.jpeg' %}">
+          <div class="card-section">
+            <h4>Salida al mercado mejorada basada en datos.</h4>
+            <p>El análisis de datos de sensores, dispositivos, videos, registros, aplicaciones transaccionales, web y redes sociales permite que una organización se base en datos. Mida las necesidades de los clientes y los riesgos potenciales y cree nuevos productos y servicios.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+{% endblock panel-content %}

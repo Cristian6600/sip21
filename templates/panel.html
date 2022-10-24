@@ -1,0 +1,99 @@
+{% extends "base.html" %} 
+
+{% load static %}
+
+{% block content %}
+<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="example-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+  
+
+<div data-sticky-container>
+  <div class="top-bar" id="example-menu" data-sticky data-stick-to="top" data-sticky-on="medium" data-margin-top="0" style="width:100%;">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li> <a href="{% url 'home_app:publico' %}"> <img src="{% static 'img/sip 21 logo.png' %}"  width="40"></li></a>
+        
+        
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li>
+          <a href="#">Servicios</a>
+          <ul class="menu vertical">
+            <li><a href="#">Telefonìa IP</a></li>
+            <li><a href="#">Infraestructura de telecomunicaciones </a></li>
+            <li><a href="#">Seguridad de redes</a></li>
+            <li><a href="#">CCTV-SEGURIDAD ELECTRONICA </a></li>
+            <li><a href="#">Obras civiles </a></li>
+          </ul>
+        </li>
+        <li><a href="{% url 'home_app:publico' %}">Inicio</a></li>
+        <li><a href="#0">Nosotros</a></li>
+        <li><a href="{% url 'home_app:contacto' %}">Contacto</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+  {% block panel-content %}
+  {% endblock panel-content %}
+
+  <div class="three-column-footer-contact-form-container">
+    <footer class="three-column-footer-contact-form" data-equalizer data-equalize-by-row="true">
+      <div class="footer-left" data-equalizer-watch>
+        <div class="baseline">
+          <div class="contact-details">
+            <h6>Contacto</h6>
+            <p><i class="fa fa-phone fa-lg" aria-hidden="true"></i> +57 3115099789</p>
+            <p><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Calle 30A # 6-22 of. 302</a></p>
+            <p><i class="fi-telephone-accessible" aria-hidden="true"></i>Colombia</p>
+            
+          </div>
+          
+        </div>
+       </div>
+      <div class="footer-center" data-equalizer-watch>
+        <div class="baseline">
+          <div class="contact-details"></div>
+            <h6>Conoce Sip32</h6>
+            <p><i class="fa fa-phone fa-lg" aria-hidden="true"></i> +57 3115099789</p>
+            <p><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Calle 30A # 6-22 of. 302</a></p>
+            <p><i class="fi-telephone-accessible" aria-hidden="true"></i>Colombia</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-right" data-equalizer-watch>
+        <div class="baseline">
+          
+          <h6>Opening times</h6>
+         
+          <div class="social">
+            <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+           
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  
+  
+
+  <div class="row column" style="background-color:rgb(143, 143, 146) ;">
+    
+    <ul class="menu">
+      
+     
+      <li class="float-right">Copyright 2022</li>
+    </ul>
+  </div>
+
+  
+
+{% endblock content %}
