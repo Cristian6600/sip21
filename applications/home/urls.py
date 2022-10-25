@@ -24,11 +24,6 @@ urlpatterns = [
         name='software-medida',
     ),
     
-    path(
-        'analitica-big-data', 
-        views.BigdataTemplateView.as_view(),
-        name='analitica-big-data',
-    ),
     
     path(
         'telefinia-ip', 
@@ -40,6 +35,18 @@ urlpatterns = [
         'infraestructura-telecomunicaciones', 
         views.InfraestructuraTemplateView.as_view(),
         name='infraestructura-telecomunicaciones',
+    ),
+    
+    path(
+        'seguridad-redes', 
+        views.SeguridadTemplateView.as_view(),
+        name='seguridad-redes',
+    ),
+    
+    path(
+        'cctv', 
+        views.cctvTemplateView.as_view(),
+        name='cctv',
     ),
 
 ]

@@ -16,12 +16,15 @@ class ContatoCreateView(CreateView):
 class SoftwareTemplateView(TemplateView):
     template_name = "home/software.html"
 
-class BigdataTemplateView(TemplateView):
-    template_name = "home/big_data.html"
-
 class TelefoniaTemplateView(TemplateView):
     template_name = "home/telefonia.html"
 
 class InfraestructuraTemplateView(TemplateView):
     template_name = "home/infraestructura.html"
+
+class SeguridadTemplateView(TemplateView):
+    template_name = "home/seguridad_redes.html"
+
+class cctvTemplateView(TemplateView):
+    template_name = "home/cctv.html"
 
