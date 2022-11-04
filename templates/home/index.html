@@ -11,14 +11,20 @@
       <ul class="orbit-container">
         <li class="is-active orbit-slide">
           <figure class="orbit-figure">
-            <div class="centrado" style="color:white ;">
-              <h2>TELEFONIA IP</h2> 
-              <p>ILa tecnología VoIP (Voz Sobre Protocolo de Internet) <br> es la nueva forma de hacer y recibir 
-                 llamadas desde <br> cualquier lugar del  mundo usando una <br> conexión a Internet. </p>
-              <a class="button primary" href="{% url 'home_app:telefinia-ip' %}">Ver más </a>
-            </div>
-            <img class="orbit-image" src="{% static 'img/telefonia.png' %}" alt="Space">
             
+            <div class="centrado" style="width:300px ; left: 200px;">
+              <div class="holat">
+              <div class="callout secondary" style="background-color: rgba(255, 255, 255, 0.5);">
+                <h4>TELEFONIA IP</h4> 
+                <p>La tecnología VoIP es la
+                   nueva forma de hacer <br> y recibir llamadas desde  cualquier
+                    lugar del  mundo usando una  conexión a Internet. </p>
+                <a class="button primary" href="{% url 'home_app:telefinia-ip' %}">Ver más </a>
+              </div>
+              </div>
+          </div>
+            <!-- <img class="orbit-image" src="{% static 'img/telefonia.jpg' %}" alt="Space"> -->
+            <img data-interchange="[{% static 'img/movil1.jpeg' %}, small] [{% static 'img/telefonia.jpg' %}, large]">
             <figcaption class="orbit-caption">Soluciones a la medida.</figcaption>
           </figure>
         </li>
@@ -30,7 +36,8 @@
               <p>Impulsa tu negocio con telefonia para empresas </p>
               <a class="button primary" href="{% url 'home_app:infraestructura-telecomunicaciones' %}">Ver más </a>
             </div>
-            <img class="orbit-image" src="{% static 'img/red.jpg' %}" alt="Space">
+
+            <img data-interchange="[{% static 'img/movil1.jpeg' %}, small] [{% static 'img/red.jpg' %}, large]">
             <figcaption class="orbit-caption">Soluciones a la medida.</figcaption>
           </figure>
         </li>
@@ -42,7 +49,8 @@
               <p> </p>
               <a class="button primary" href="{% url 'home_app:seguridad-redes' %}">Ver más </a>
             </div>
-            <img class="orbit-image" src="{% static 'img/seguridad.jpg' %}" alt="Space">
+           
+            <img data-interchange="[{% static 'img/movil1.jpeg' %}, small] [{% static 'img/seguridad.jpg' %}, large]">
             <figcaption class="orbit-caption">Soluciones a la medida.</figcaption>
           </figure>
         </li>
@@ -54,7 +62,8 @@
               <p>Impulsa tu negocio con telefonia para empresas </p>
               <a class="button primary" href="{% url 'home_app:cctv' %}">Ver más </a>
             </div>
-            <img class="orbit-image" src="{% static 'img/camara.jpg' %}" alt="Space">
+            
+            <img data-interchange="[{% static 'img/movil1.jpeg' %}, small] [{% static 'img/camara.jpg' %}, large]">
             <figcaption class="orbit-caption">Soluciones a la medida.</figcaption>
           </figure>
         </li>
@@ -66,7 +75,8 @@
               <p>Impulsa tu negocio con telefonia para empresas </p>
               <a class="button primary" href="#">Ver más </a>
             </div>
-            <img class="orbit-image" src="{% static 'img/obras.jpeg' %}" alt="Space">
+
+            <img data-interchange="[{% static 'img/movil1.jpeg' %}, small] [{% static 'img/obras.jpg' %}, large]">
             <figcaption class="orbit-caption">Soluciones a la medida.</figcaption>
           </figure>
         </li>
