@@ -94,6 +94,12 @@
     background: rgb(255, 255, 255);
     width: 90%;
   }
+  .letra {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #444444;
+    font-size: 11pt;
+    background-color: #FAFAFA;
+ }
 
   .centrado{
     position: absolute;
@@ -106,7 +112,7 @@
 @media only screen and (max-width: 600px) {
   .holat {
     background-color: rgb(120, 161, 199);
-  
+    width: 410px;
   }
 }
   
