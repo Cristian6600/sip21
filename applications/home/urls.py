@@ -49,4 +49,10 @@ urlpatterns = [
         name='cctv',
     ),
 
+    path(
+        'obras-civiles', 
+        views.ObrasCivilesTemplateView.as_view(),
+        name='obras-civiles',
+    ),
+
 ]

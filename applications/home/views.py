@@ -28,3 +28,5 @@ class SeguridadTemplateView(TemplateView):
 class cctvTemplateView(TemplateView):
     template_name = "home/cctv.html"
 
+class ObrasCivilesTemplateView(TemplateView):
+    template_name = "home/obras_civiles.html"
