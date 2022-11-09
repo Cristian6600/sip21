@@ -30,3 +30,6 @@ class cctvTemplateView(TemplateView):
 
 class ObrasCivilesTemplateView(TemplateView):
     template_name = "home/obras_civiles.html"
+
+class NosotrosTemplateView(TemplateView):
+    template_name = "home/nosotros.html"

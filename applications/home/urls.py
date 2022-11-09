@@ -54,5 +54,10 @@ urlpatterns = [
         views.ObrasCivilesTemplateView.as_view(),
         name='obras-civiles',
     ),
-
+    
+    path(
+        'nosotros', 
+        views.NosotrosTemplateView.as_view(),
+        name='nosotros',
+    ),
 ]
